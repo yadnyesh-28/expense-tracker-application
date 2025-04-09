@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ExpenseTrackerLearning.props" />
+</Project>
