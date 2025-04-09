@@ -45,3 +45,9 @@ _Layout.cshtml - _PartialView.cshtml wwwroot/ - CSS - JS
    ```bash
    git clone https://github.com/yadnyesh-28/expense-tracker-application.git
 
+   2.how to open folder in your visual studio
+   1st make a solution then import that folder in a solution
+   2nd update packages with updated one if it's not work
+   3rd change connection string from appsetting.json file
+   4th build solution and run it
+
