@@ -50,33 +50,21 @@ _Layout.cshtml - _PartialView.cshtml wwwroot/ - CSS - JS
 🧑‍💻 How to Open the Project in Visual Studio
 Follow these steps to open and run this project in Visual Studio:
 
-Create a New Solution in Visual Studio
+1. Create a New Solution in Visual Studio  
+   - Open Visual Studio  
+   - Create a new Blank Solution  
+   - Right-click on the solution > Add > Existing Project  
+   - Navigate to the project folder and add the .csproj file
 
-Open Visual Studio
+2. Restore and Update NuGet Packages  
+   - Go to Tools > NuGet Package Manager > Manage NuGet Packages for Solution  
+   - Click on Restore and Update any outdated packages  
+   - If package issues persist, manually install the missing packages
 
-Create a new Blank Solution
+3. Update the Connection String  
+   - Open appsettings.json or Web.config  
+   - Update the Connection String to match your local SQL Server setup
 
-Right-click on the solution > Add > Existing Project
-
-Navigate to the project folder and add the .csproj file
-
-Restore and Update NuGet Packages
-
-Go to Tools > NuGet Package Manager > Manage NuGet Packages for Solution
-
-Click on Restore and Update any outdated packages
-
-If package issues persist, manually install the missing packages
-
-Update the Connection String
-
-Open appsettings.json or Web.config
-
-Update the Connection String to match your local SQL Server setup
-
-Build and Run the Solution
-
-Click on Build > Build Solution
-
-Once successful, click on Start (IIS Express) to run the application
-
+4. Build and Run the Solution  
+   - Click on Build > Build Solution  
+   - Once successful, click on Start (IIS Express) to run the application
