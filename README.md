@@ -45,9 +45,38 @@ _Layout.cshtml - _PartialView.cshtml wwwroot/ - CSS - JS
    ```bash
    git clone https://github.com/yadnyesh-28/expense-tracker-application.git
 
-   2.how to open folder in your visual studio
-   1st make a solution then import that folder in a solution
-   2nd update packages with updated one if it's not work
-   3rd change connection string from appsetting.json file
-   4th build solution and run it
+ Let me know if you want to include a license, or if you're deploying it somewhere (like Azure or Vercel), I can add deployment instructions too!
+ 
+🧑‍💻 How to Open the Project in Visual Studio
+Follow these steps to open and run this project in Visual Studio:
+
+Create a New Solution in Visual Studio
+
+Open Visual Studio
+
+Create a new Blank Solution
+
+Right-click on the solution > Add > Existing Project
+
+Navigate to the project folder and add the .csproj file
+
+Restore and Update NuGet Packages
+
+Go to Tools > NuGet Package Manager > Manage NuGet Packages for Solution
+
+Click on Restore and Update any outdated packages
+
+If package issues persist, manually install the missing packages
+
+Update the Connection String
+
+Open appsettings.json or Web.config
+
+Update the Connection String to match your local SQL Server setup
+
+Build and Run the Solution
+
+Click on Build > Build Solution
+
+Once successful, click on Start (IIS Express) to run the application
 
