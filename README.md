@@ -10,7 +10,7 @@ This application allows users to monitor their financial activities through CRUD
 - ✅ Add, Edit, and Delete **Income** and **Expense** transactions
 - 🗂️ Manage categories (e.g., Salary, Grocery, Festival, Commission, Maintenance)
 - 📅 Filter and analyze financial data from the **last 7 or 15 days**
-- 📊 Dynamic **Pie Chart** and **Doughnut Chart** using **Syncfusion**
+- 📊 Dynamic **Pie Chart** and **Doughnut Chart** , **Spline Chart** using **Syncfusion**
 - 📋 Tabular view of all transactions with inline actions
 - 💰 Auto-calculated **Total Income, Total Expenses, and Remaining Balance**
 
